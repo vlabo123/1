@@ -15,6 +15,7 @@ div {
     margin-top: 15px;
 }
 .login{
+    box-shadow: 2px 2px 2px black;
     background: linear-gradient(to right top, var(--dark-blue), var(--light-blue));
     border: 0px solid black;
     width: 200px;
@@ -22,6 +23,7 @@ div {
     border-radius: 15px;
 }
 .password{
+    box-shadow: 2px 2px 2px black;
     background: linear-gradient(to right top, var(--dark-blue), var(--light-blue));
     border: 0px solid black;
     border-radius: 15px;
@@ -30,11 +32,14 @@ div {
     box-shadow: 20%;
 }
 button{
+    box-shadow: 2px 2px 2px black;
+    border-radius: 15px;
     color: white;
     background: linear-gradient(to right top, var(--dark-blue), var(--light-blue));
     border: 0px solid black;
 }
 form {
+    box-shadow: 10px 10px 8px black;
     text-align: center;
     border-radius: 15px;
     width: 280px;
@@ -43,7 +48,7 @@ form {
 }
 
 ::placeholder {
-    
     color: white;
+    text-align: center;
 }
 
